@@ -1,0 +1,67 @@
+/* General */
+
+* {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	background-color: #DAF2F2;
+	color: #5f6a6a;
+}
+
+#title {
+	display: flex;
+	margin: 0.5em;
+	font-size: 2em;
+	justify-content: center;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	margin: 0.3em;
+	font-size: 1.2em;
+}
+
+/* Div */
+
+#img-div {
+	text-align: center;
+}
+
+#image {
+	display: block;
+  margin: auto;
+  height: auto;
+	max-width: 100%;
+}
+
+#img-caption {
+	font-size: 1.15em;
+	margin: 0.35em;
+}
+
+/* Section Tribute */
+
+li {
+	list-style: none;
+	font-size: 1.1rem;
+	margin: 1rem;
+}
+
+/* Footer */
+
+footer {
+	height: auto;
+	max-width: 100%;
+}
+
+a:visited, a:active, a:link {
+	text-decoration: none;
+}
+
+#tribute-link {
+	display: flex;
+	justify-content: center;
+	color: #2980B9;
+	margin: 1.3em;
+}

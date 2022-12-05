@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Surver Form</title>
+</head>
+<body>
+	<h1 id="title">Nagging</h1>
+	<p id="description">If you have any complaints let us know!</p>
+	<!-- Form Section -->
+	<section id="section-form">
+		<form id="survey-form">
+			<!-- Name -->
+			<div class="name-div">
+				<label id="name-label" for="name">Name</label>
+				<input id="name" type="text" placeholder="Name"  required>
+			</div>
+			<!-- Email -->
+			<div class="email-div">
+				<label id="email-label" for="email">Email</label>
+				<input id="email" type="email" placeholder="Email" required>
+			</div>
+			<!-- Number -->
+			<div class="number-div">
+				<label id="number-label" for="number">Age</label>
+				<input id="number" type="number" name="age" min="12" max="99" placeholder="Age" required>
+			</div>
+			<!-- Dropdown -->
+			<div class="dropdown-div">
+				<label for="dropdown">Area you want to consult</label>
+				<select id="dropdown" name="dropdown" >
+					<option value="sales">Sales</option>
+					<option value="customerSupport">Customer Support</option>
+					<option value="technicalService">Technical service</option>
+				</select>
+			</div>
+			<!-- Radio Buttons -->
+			<div class="radio-div">
+				<p>How was the treatment you received?</p>
+				<label>
+					<input name="treatment" value="good" type="radio">
+					Good
+				</label>
+				<label>
+					<input name="treatment" value="normal" type="radio">
+					Normal
+				</label>
+				<label>
+					<input name="treatment" value="Bad" type="radio">
+					Bad
+				</label>
+			</div>
+			<!-- Checkbox Buttons -->
+			<div class="checkbox-div">
+				<p>Did you get any of these types of treatment?</p>
+				<label>
+					<input name="typesOfTreatment" value="Genero-Preferido" type="checkbox">
+					Bad words towards his person
+				</label>
+				<label>
+					<input name="typesOfTreatment" value="Genero-Preferido" type="checkbox">
+					Bad way to explain (Insulting)
+				</label>
+				<label>
+					<input name="typesOfTreatment" value="Genero-Preferido" type="checkbox">
+					Bad disposition when speaking
+				</label>
+				<label>
+					<input name="typesOfTreatment" value="Genero-Preferido" type="checkbox">
+					I answer and cut instantly
+				</label>
+			</div>
+			<!-- Text Area -->
+			<div>
+				<p>If your complaint is not found, you can leave us a personalized comment :)</p>
+				<label>
+					<textarea></textarea>
+				</label>
+			</div>
+			<div>
+				<!-- Submit -->
+				<label>
+					<button id="submit" type="submit">Submit</button>
+				</label>
+			</div>
+		</form>
+	</section>
+</body>
+</html>

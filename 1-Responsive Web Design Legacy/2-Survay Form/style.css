@@ -1,0 +1,137 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#title {
+	font-size: 4rem;
+	text-align: center;
+}
+
+#description {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+label {
+	margin: 0.5em;
+}
+
+/* Form */
+
+#section-form {
+
+}
+
+#survey-form {
+	margin: auto;
+	text-align: center;
+	height: auto;
+	width: 30vw;
+}
+
+p {
+	margin: 1em;
+}
+
+/* Name */
+
+.name-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+#name-label {
+	
+}
+
+#name {
+	height: 5vh;
+	width: 17vw;
+	margin: auto;
+}
+
+/* Email */
+
+.email-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+#email {
+	height: 5vh;
+	width: 17vw;
+	margin: auto;
+}
+
+#email-label {
+	
+}
+
+/* Number */
+
+.number-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+#number-laber {
+
+}
+
+#number {
+	height: 5vh;
+	width: 17vw;
+	margin: auto;
+}
+
+/* Dropdown */
+
+.dropdown-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+#dropdown {
+	height: 5vh;
+	width: 17vw;
+	margin: auto;
+	text-align: center;
+}
+
+/* Radio Buttons */
+
+.radio-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+/* Checkbox Buttons */
+
+.checkbox-div {
+	display: flex;
+	flex-direction: column;
+	margin: 3em;
+}
+
+/* Text Area */
+
+textarea {
+	height: 17vh;
+	width: 26vw;
+}
+
+/* Submit */
+
+#submit {
+	height: 5vh;
+	width: 5vw;
+}
